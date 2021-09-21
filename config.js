@@ -11,6 +11,14 @@ const config = {
   sideBarInfo: ["ShopName", "Pincode", "Description", "Tags"],
   popupInfo: ["ShopName"],
   filters: [
+  zoom: 12,
+  title: "City Dashboard",
+  description:
+    "Everything in your neighbourhood in one place for the city of Bengaluru!",
+  sideBarInfo: ["ShopName", "Pincode", "Description", "Tags"],
+  popupInfo: ["ShopName"],
+  filters: [
+    
     {
       type: "dropdown",
       title: "Category: ",
